@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Amazon Login &amp; Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="amazon.css">
+</head>
+<body>
+	<div class="container">
+		<div class="login-container">
+			<h2>Login to Amazon</h2>
+			<form action="#" method="post">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<button type="submit" onclick="next()">Submit</button>
+				 
+			</form>
+		</div>
+		<div class="signup-container">
+			<h2>Create an Amazon Account</h2>
+			<form action="#" method="post">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" required>
+				<label for="confirm-password">Confirm Password:</label>
+				<input type="password" id="confirm-password" name="confirm-password" required>
+				
+				<button type="submit" onclick="next()">Create Account</button>
+			</form>
+		</div>
+	</div>
+	<script>
+		function next()
+		{
+			window.location.href="index2.html";
+		}
+	</script>
+</body>
+</html>
